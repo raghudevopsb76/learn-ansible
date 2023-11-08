@@ -1,0 +1,10 @@
+- name: Demo on Conditions
+  hosts: localhost
+  tasks:
+    - name: Print Linux
+      ansible.builtin.debug:
+        msg: Hello, Linux
+    - name: Print Unix
+      ansible.builtin.debug:
+        msg: Hello, Unix
+

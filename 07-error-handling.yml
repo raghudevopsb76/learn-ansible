@@ -1,0 +1,6 @@
+- name: Demo on Error handling
+  hosts: all
+  tasks:
+    - name: Some shell command
+      ansible.builtin.shell: ls
+
